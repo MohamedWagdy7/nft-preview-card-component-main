@@ -17,32 +17,28 @@ body{
     background-color: var(--maincolor);
 }
 .padding-class{
-    padding-left: 6%;
-    padding-bottom: 6%;    
-    padding-right: 6%;
+    padding: 0 6% 6% 6%;
 
 }
 .container{
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 8rem auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 25%;
+    width: 330px;
     background-color: var(--containercolor);
     border-radius: 18px;
 }
 .aimg{
     width: 88%;
     height: 46%;
-    margin-top: 6%;
-    margin-bottom: 6%; 
+    margin: 6% auto;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    cursor: pointer;
 }
 .aimg img{
     width: 100%;
@@ -71,8 +67,8 @@ body{
 }
 hr{
     width: 88%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    color: hsl(215, 51%, 70%);
 }
 .two p{
     display: inline;
@@ -80,6 +76,8 @@ hr{
 .three img{
     display: inline;
     width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 .three{
     display: flex;
